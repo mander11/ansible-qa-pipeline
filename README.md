@@ -17,3 +17,21 @@ My idea: use docker-compose
 One image will have ansible control machine
 The other will have a simple ssh
 This will just be for manual testing.
+
+1. DONE - Setup a docker-compose environment
+2. Setup passwordless ssh with redis image
+3. Bake it into dockerfile 
+4. Hello world playbook
+5. Bake hello world playbook into dockerfiles
+6. Swap out redis image for postgres
+7. Redo hello world playbook with postgres
+8. Ansible to create dummy table
+9. Ansible to backup schema
+10.Ansible to pull back schema
+
+Steps done outside of docker-compose:
+1. Run local commands
+https://stackoverflow.com/questions/18900236/run-command-on-the-ansible-host
+2. Build dockerfile
+3. Push to repository
+NOTE: will need to setup a dev docker repository
